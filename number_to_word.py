@@ -29,14 +29,7 @@ def numberToWords(num):
             c += 1
             temp //= 10
         m=c
-        '''
-        d = {1: "One", 2: "Two", 3: "Three", 4: "Four", 5: "Five", 6: "Six", 7: "Seven", 8: "Eight", 9: "Nine",
-             10: "Ten", 11: "Eleven", 12: "Twelve", 13: "Thirteen", 14: "Fourteen", 15: "Fifteen", 16: "Sixteen", 
-             17: "Seventeen", 18: "Eighteen", 19: "Nineteen"}
-        b = {1: "Ten", 2: "Twenty", 3: "Thirty", 4: "Forty", 5: "Fifty", 6: "Sixty", 7: "Seventy", 
-             8: "Eighty", 9: "Ninety"}
-        a = {3: "Hundred", 4: "Thousand",  7: "Million", 10: "Billion"}
-        '''
+        
         while k != 0:
             r1 = k % 10
             if c in [11 ,8, 5, 2]: 
