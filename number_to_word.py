@@ -35,7 +35,6 @@ def numberToWords(num):
             if c in [11 ,8, 5, 2]: 
                 r2 = k % 100
                 r1 = rev(r2)
-                print("r1=",r1)
                 if 10 < r1 < 20:
                     h += d[r1] + " "
                     n=c-1
@@ -55,7 +54,6 @@ def numberToWords(num):
                 h += d[r1] + " " + a[3] + " "
             elif c > 3  and c % 3 != 0:
                 z=c
-                print("z=",z)
                 if r1 in d:
                     h += d[r1] + " " 
                 if z in a:
